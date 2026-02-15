@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: anthropics/claude-code-action@v1
         env:
-          CLAUDE_CODE_USE_BEDROCK: 1
+          CLAUDE_CODE_USE_BEDROCK: 0
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
