@@ -1,7 +1,8 @@
 name: Claude Code
 
 on:
-  pull_request: 
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   claude:
