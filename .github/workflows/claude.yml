@@ -1,5 +1,7 @@
 name: Claude Code
 
+on:
+  pull_request: 
 
 jobs:
   claude:
