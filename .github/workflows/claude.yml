@@ -24,3 +24,5 @@ jobs:
       - uses: anthropics/claude-code-action@v1
         with:
           use_bedrock: "true"
+          claude_args: |
+            --system-prompt "Don't post update comments, just post the final result of the query"
